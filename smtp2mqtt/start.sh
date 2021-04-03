@@ -9,7 +9,4 @@ else
     MQTT_PASSWORD=$(bashio::services mqtt "password")
 fi
 
-echo ${MQTT_USER}
-echo ${MQTT_PASSWORD}
-
-./app/smtp2mqtt -mqtt tcp://${MQTT_HOST}:1883 -user ${MQTT_USER} -password ${MQTT_PASSWORD} -topic smtp/ -json
+./app/smtp2mqtt -mqtt tcp://${MQTT_HOST}:${MQTT_PORT} -user ${MQTT_USER} -password ${MQTT_PASSWORD} -topic /smtp2mqtt -json

@@ -1,9 +1,9 @@
 {
-  "name": "Demo Addon",
+  "name": "smtp2mqtt",
   "version": "0.1",
-  "slug": "myaddon",
-  "description": "Add-on that prints 'Hello, world' to the log and exits",
-  "url": "https://github.com/issacg/hassio-addon-devcontainer",
+  "slug": "smtp2mqtt",
+  "description": "Converts a smtp request into json and forwards it to a mqtt broker",
+  "url": "https://github.com/MichaelStephan/haasiotestrepo",
   "startup": "application",
   "boot": "auto",
   "options": {},
