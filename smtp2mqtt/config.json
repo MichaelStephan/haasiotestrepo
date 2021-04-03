@@ -1,6 +1,6 @@
 {
   "name": "smtp2mqtt",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "smtp2mqtt",
   "description": "Converts a smtp request into json and forwards it to a mqtt broker",
   "url": "https://github.com/MichaelStephan/haasiotestrepo",
